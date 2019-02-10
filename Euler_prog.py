@@ -72,8 +72,6 @@ def remove_space(num):
     return list
 
 
-
-
 def count(x):
 
     add = 0
@@ -85,7 +83,5 @@ def count(x):
         add = add + len(remove_s)
         print(add)
     return(add)
-
-
 
 print(count(1000))
