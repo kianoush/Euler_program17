@@ -72,10 +72,9 @@ def remove_space(num):
     return list
 
 
-def count(x):
-
+def count(num):
     add = 0
-    for i in range(x):
+    for i in range(num):
         d = test_say_number(i+1)
         print(d)
         list_num = list(d)
